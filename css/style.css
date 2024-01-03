@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    overflow: hidden;
+    overscroll-behavior-x: none;
+}
+
+#container-background {
+    background: url("../fig/background.png") no-repeat fixed 50% 50%;
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#google-login-button-html {
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1.5vw;
+}
+
+#google-button {
+    height: 10%;
+}
+
+.login-field {
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    border-radius: 2vw;
+}
+
+.login-field h1 {
+    margin-top: 3vw;
+    font-size: 3vw;
+}
+
+.login-field h3 {
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+#register-button {
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+.login-form-input {
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 28%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1vw;
+}
+
+#login-input {
+    display: flex;
+    height: 30%;
+}
+
+#login-input form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-input form button{
+    width: 100%;
+    height: 30%;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+#login {
+    color: white;
+    text-decoration: none;
+}
+
+.right-menu {
+    background-color: #535353;
+    height: 100%;
+    width: 25%;
+    margin-right: auto;
+    color: white;
+}
+.user {
+    height: 3vw;
+    display: flex;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.user-photo {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.user-photo h1 {
+    font-size: 2vw;
+    margin: 0.2vw 0 0;
+}
+
+.user-name {
+    height: 3vw;
+}
+
+.user-name h2 {
+    margin: 0;
+    font-size: 2vw;
+}
+
+.projects {
+    margin: 0 0 0 1vw;
+}
+
+.user2 .projects {
+    margin-top: 1vw;
+}
+
+.user2 .projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user3 .projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user3 h2{
+    font-size: 2vw;
+    margin: 0 0 0 1vw;
+}
+
+.user4 {
+    border-top: 1px solid black;
+}
+
+#sss {
+    border-top: 1px solid black;
+    margin-top: 20vw;
+}
+
+.welcome {
+    background-color: #535353;
+    color: white;
+    border-radius: 0.7vw;
+    margin-right: auto;
+    margin-top: 1vw;
+    margin-bottom: auto;
+}
+
+.welcome2 {
+    background-color: #535353;
+    color: white;
+    border-radius: 0.7vw;
+    margin: 1vw auto;
+}
+
+.shop {
+    color: white;
+    margin: 1vw auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.welcome h1{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.other{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100%;
+    text-align: center;
+    gap: 1vw;
+}
+
+.item {
+    background-color: #535353;
+    border-radius: 1vw;
+    padding: 1vw;
+    text-align: left;
+}
+
+.item h5, h6{
+    margin: 0;
+}
+
+.item button {
+    margin-top: 1vw;
+    padding: 0.6vw;
+    color: white;
+    background-color: #3C3C3C;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+.img{
+    width: 100%;
+}
+
+img{
+    width: 10vw;
+    height: 10vw;
+}
+
+#topMenu {
+    background-color: #535353;
+    width: 100%;
+    height: 3%;
+    margin-bottom: auto;
+    display: flex;
+}
+
+#rightMenu {
+    background-color: #535353;
+    width: 15%;
+    height: 40%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 1.75vw;
+}
+
+#leftMenu {
+    background-color: #535353;
+    height: 100%;
+    width: 3%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1vw;
+}
+
+#leftMenu svg:hover {
+    background-color: #3C3C3C;
+}
+
+#topMenu button {
+    color: white;
+    margin-left: 1vw;
+    background-color: #535353;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+#topMenu button:hover {
+    background-color: #3C3C3C;
+}
+
+#topMenu2 {
+    display: flex;
+    gap: 1vw;
+    padding-left: 1vw;
+}
+
+.topMenuButton {
+    width: 4vw;
+    height: 2vw;
+    background-color: #535353;
+}
+
+.topMenuButton:hover {
+    background-color: #3C3C3C;
+}
+
+#bottomMenu {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#bottomMenu h5 {
+    color: white;
+    margin: 0.5vw auto 0 1vw;
+}
+
+.a4 {
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 70%;
+    margin: auto;
+}
+
+.user-name a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-menu {
+    position: absolute;
+    background-color: rgba(0,0,0, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+.user-menu-field {
+    color: white;
+    width: 35%;
+    height: 70%;
+    background-color: #535353;
+    margin: 10% auto;
+    border-radius: 2vw;
+    padding-top: 1vw;
+}
+
+.user-photo2 {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.user-photo2 h1 {
+    font-size: 4vw;
+    margin: 0.2vw 0 0;
+}
+
+.password-field input {
+    width: 30%;
+    padding: 0.5vw;
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #878787;
+    color: white;
+}
+
+.password-field input::placeholder {
+    color: white;
+}
+
+.password-field button {
+    width: 20%;
+    padding: 0.5vw;
+    margin-bottom: 1vw;
+    border-radius: 0.5vw;
+    border: none;
+    background-color: #35649B;
+    color: white;
+}
